@@ -1,0 +1,30 @@
+.Post{
+    justify-content: center;
+    align-items: center;
+    margin-left: 20%;
+   height: 30rem;
+    width: 100%;
+    background-image: url('./tc.png');
+    background-repeat: no-repeat;
+    /* margin: 2%; */
+}
+.name{
+    position: absolute;
+ margin-top: 17%;
+ margin-left: 22%;
+}
+.institution{
+ 
+        position: absolute;
+     margin-top: 25%;
+     margin-left: 22%;
+    
+}
+.date{
+ 
+    position: absolute;
+ margin-top: 31%;
+ margin-left: 28%;
+ font-size: smaller;
+
+}
