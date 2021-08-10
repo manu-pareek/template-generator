@@ -2,3 +2,9 @@
     background-color: antiquewhite;
 
 }
+.heading{
+    background-color: rgb(191, 252, 218);
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 5%;
+}

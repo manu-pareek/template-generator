@@ -14,6 +14,8 @@ const Form = () => {
     
     },[institution,name,date])
     return (
+        <>
+            <div className="heading">Dummy Certificate Generator(Note: Pls set Zoom to 100%)</div>
         <div className="form">
            <h1> Enter Institution Name: </h1>
             <input onChange={(e)=>setInstitution(e.target.value)}></input>
@@ -24,6 +26,7 @@ const Form = () => {
             {/* <button onClick={log} >Submit!</button> */}
             <PDF  institution={institution} name={name} date={date} click={click} />
         </div>
+        </>
     )
 }
 

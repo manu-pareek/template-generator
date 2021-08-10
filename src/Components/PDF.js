@@ -7,15 +7,17 @@ const PDF = (props) => {
     return (
         
         <>
-      {
-          click ?  (
+      
+          
         <div className="Post" ref={ref} >
-        <h1 className="name">  {name}</h1>
-        <h1 className="institution"> {institution}</h1>
-        <h1 className="date">  {date}</h1>
+    
+        <div className="name">  {name}</div>
+        <div className="institution"> {institution}</div>
+        <div className="date">  {date}</div>
+       
         
-        </div>): (<div></div>) }
-        <Pdf targetRef={ref} filename="post.pdf">
+        </div>
+        <Pdf targetRef={ref} filename="certificate.pdf">
             {({toPdf})=><button onClick={toPdf}>Capture as PDF!</button>}
 
         </Pdf>
